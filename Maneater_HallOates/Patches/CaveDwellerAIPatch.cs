@@ -28,6 +28,9 @@ namespace Maneater_HallOates.Patches
             {
                 Debug.Log("Clip not set");
             }
+
+            // match the fakeCry to the babyCrying so we it's believable
+            __instance.fakeCrySFX = ManeaterHallOatesBase.newCryingSound.ToArray();
         }
 
 
